@@ -1,0 +1,69 @@
+body {  
+    font-family: "Times New Roman", serif;
+        background-image: url("da-kak.jpg");
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-size: cover; 
+        background-position: center center; 
+      }
+      .content {
+        padding: 20px; ;
+    color: #1b1313;
+}
+img {
+    float:align ;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+.container {
+
+    width: 70%;
+    margin: 0 auto; 
+    padding: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.image-container img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #d6d6d6; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.1);
+}
+.animate-all-text {
+    animation: animateText 5s linear infinite;
+  }
+  
+  @keyframes animateText {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); 
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
